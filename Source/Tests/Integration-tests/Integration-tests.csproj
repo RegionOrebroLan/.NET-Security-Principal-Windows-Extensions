@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RootNamespace>IntegrationTests</RootNamespace>
+		<TargetFrameworks>net462;net5.0;netcoreapp3.1</TargetFrameworks>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="System.DirectoryServices.AccountManagement" Version="5.0.0" />
+	</ItemGroup>
+</Project>
